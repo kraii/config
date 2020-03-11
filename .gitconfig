@@ -1,0 +1,10 @@
+[push]
+	default = current
+[commit]
+	verbose = true
+[user]
+    email = matthewkerry@gmail.com
+    name = kraii
+[credential]
+	helper = /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+

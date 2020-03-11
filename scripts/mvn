@@ -1,0 +1,7 @@
+#!/bin/bash
+if [[ -f "./mvnw" ]]; then
+    ./mvnw $@
+else
+    /usr/bin/mvn $@
+fi
+
