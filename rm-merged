@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Removing merged branches for $(pwd)"
+git remote prune origin
+git branch --merged | grep -v master | xargs -r git branch -D
+
